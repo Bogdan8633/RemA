@@ -16,18 +16,20 @@ ol {
 }
 
 body {
+  background-color: burlywood;
+
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 200;
   line-height: 1.33;
 
-  /* color: #fff; */
+  color: var(--main-text-color);
 }
 
 /* ==========COMPONENTS========== */
 .main-text {
   background-color: black;
-  color: var(--main-text-color);
+  /* color: var(--main-text-color); */
   font-size: 98px;
   /* text-align: left; */
   font-weight: 500;
@@ -44,7 +46,7 @@ body {
 
 /* ==========HEADER========== */
 .page-header {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .page-navigation {
@@ -80,3 +82,29 @@ body {
 }
 
 /* ==========/HEADER========== */
+
+/* ==========SECTION Uncover Carpathian’s Secrets========== */
+.tours {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1.44px;
+}
+
+.journey {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 36.48px;
+}
+
+.join-button {
+  color: #fff;
+
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* ==========/SECTION Uncover Carpathian’s Secrets========== */
