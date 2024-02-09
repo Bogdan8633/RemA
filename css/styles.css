@@ -10,3 +10,38 @@ ol {
 .link {
   text-decoration: none;
 }
+
+.page-header {
+  background-color: antiquewhite;
+}
+
+.page-navigation {
+}
+
+.logotype {
+}
+
+.logo-img {
+}
+
+.menu {
+  display: flex;
+}
+
+.menu-item {
+}
+
+.menu-link {
+}
+
+.main-text {
+  background-color: black;
+  color: #fff;
+  font-size: 98px;
+  /* text-align: left; */
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -3.92px;
+  text-transform: uppercase;
+}
