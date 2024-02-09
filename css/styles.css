@@ -26,12 +26,26 @@ ol {
 
 .menu {
   display: flex;
+  gap: 56px;
 }
 
 .menu-item {
 }
 
 .menu-link {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: green;
 }
 
 .main-text {
@@ -44,4 +58,8 @@ ol {
   line-height: normal;
   letter-spacing: -3.92px;
   text-transform: uppercase;
+}
+
+.main-text-thin {
+  font-weight: 100;
 }
