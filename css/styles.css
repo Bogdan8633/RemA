@@ -26,6 +26,14 @@ body {
   color: var(--main-text-color);
 }
 
+.highlighted-text {
+  font-weight: 400;
+}
+
+.to-uppercase {
+  text-transform: uppercase;
+}
+
 /* ==========COMPONENTS========== */
 .main-text {
   background-color: black;
@@ -108,3 +116,14 @@ body {
 }
 
 /* ==========/SECTION Uncover Carpathian’s Secrets========== */
+
+/* ==========SECTION WHO WE ARE========== */
+.text-offer {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.tour-for-everyone {
+  letter-spacing: 2.16px;
+}
+/* ==========/SECTION WHO WE ARE========== */
