@@ -1,3 +1,7 @@
+:root {
+  --main-text-color: #fff;
+}
+
 /* ul,
 ol {
   list-style: none;
@@ -11,10 +15,34 @@ ol {
   text-decoration: none;
 }
 
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.33;
+
+  /* color: #fff; */
+}
+
 /* ==========COMPONENTS========== */
+.main-text {
+  background-color: black;
+  color: var(--main-text-color);
+  font-size: 98px;
+  /* text-align: left; */
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -3.92px;
+  text-transform: uppercase;
+}
+
+.main-text-thin {
+  font-weight: 100;
+}
 
 /* ==========/COMPONENTS========== */
 
+/* ==========HEADER========== */
 .page-header {
   background-color: antiquewhite;
 }
@@ -39,7 +67,6 @@ ol {
 .menu-link {
   color: #fff;
 
-  font-family: Inter;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -52,18 +79,4 @@ ol {
   color: green;
 }
 
-.main-text {
-  background-color: black;
-  color: #fff;
-  font-size: 98px;
-  /* text-align: left; */
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: -3.92px;
-  text-transform: uppercase;
-}
-
-.main-text-thin {
-  font-weight: 100;
-}
+/* ==========/HEADER========== */
