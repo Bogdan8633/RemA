@@ -95,6 +95,7 @@ body {
   background-image: url(../images/backgrounds/header-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  min-height: 763px;
 }
 
 .page-header {
@@ -161,9 +162,13 @@ body {
   letter-spacing: 36.32px;
 }
 
-.small-hero-text {
+.сall-block {
   margin-left: auto;
   width: 293px;
+}
+
+.small-hero-text {
+  margin-bottom: 28px;
 }
 
 .join-button {
