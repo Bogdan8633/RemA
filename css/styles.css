@@ -158,7 +158,12 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
-  letter-spacing: 36.48px;
+  letter-spacing: 36.32px;
+}
+
+.small-hero-text {
+  margin-left: auto;
+  width: 293px;
 }
 
 .join-button {
@@ -170,7 +175,7 @@ body {
   font-weight: 700;
   line-height: normal;
 
-  padding: 16px 64px;
+  padding: 16px 63px;
   gap: 10px;
 
   border: 1px dashed #fff;
