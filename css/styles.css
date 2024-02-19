@@ -56,6 +56,12 @@ body {
 }
 
 /* ==========COMPONENTS========== */
+
+.hero-text {
+  /* display: block; */
+  width: 646px;
+}
+
 .main-text {
   /* background-color: black; */
   color: var(--main-text-color);
