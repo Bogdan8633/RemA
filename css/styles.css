@@ -244,9 +244,53 @@ body {
 /* ==========SECTION WE OFFER========== */
 .section-three-background {
   background-image: url(../images/backgrounds/we-offer.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   min-height: 779px;
+}
+
+.offer-hero {
+  /* width: 607px; */
+  margin-right: 20px;
+}
+
+.offer-menu {
+  width: 240px;
+  margin-right: 59px;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.offer-list-item {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.85; /* 85.714% */
+  text-transform: uppercase;
+}
+
+.passive {
+  opacity: 0.5;
+}
+
+.offer-description {
+  width: 293px;
+  padding-top: 114px;
+}
+
+.offer-heading {
+  margin-bottom: 244px;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 2.4px;
+}
+
+.offer-text {
+  text-align: justify;
 }
 
 /* ==========/SECTION WE OFFER========== */
