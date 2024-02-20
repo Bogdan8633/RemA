@@ -197,7 +197,7 @@ body {
   background-image: url(../images/backgrounds/who-we-are-img.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 826px;
+  min-height: 824px;
 }
 
 .dividing-container {
@@ -240,3 +240,42 @@ body {
   letter-spacing: 2.16px;
 }
 /* ==========/SECTION WHO WE ARE========== */
+
+/* ==========SECTION WE OFFER========== */
+.section-three-background {
+  background-image: url(../images/backgrounds/we-offer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 779px;
+}
+
+/* ==========/SECTION WE OFFER========== */
+
+/* ==========SECTION CHOOSE US========== */
+.section-four-background {
+  background-image: url(../images/backgrounds/choose-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 818px;
+}
+
+/* ==========/SECTION CHOOSE US========== */
+
+/* ==========SECTION OUR GALLERY========== */
+.section-five-background {
+  background-image: url(../images/backgrounds/our-gallery.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 788px;
+}
+/* ==========/SECTION OUR GALLERY========== */
+
+/* ==========SECTION CONTACT US========== */
+.section-six-background {
+  background-image: url(../images/backgrounds/choose-us.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 762px;
+}
+
+/* ==========/SECTION CONTACT US========== */
