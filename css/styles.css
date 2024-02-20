@@ -84,9 +84,11 @@ body {
   margin-right: auto;
 }
 
-/* .page-header-container {
-  display: flex;
-} */
+.section-padding {
+  /* padding: 82px 80px 80px 80px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
 /* ==========/COMPONENTS========== */
 
@@ -190,6 +192,11 @@ body {
 /* ==========/SECTION Uncover Carpathian’s Secrets========== */
 
 /* ==========SECTION WHO WE ARE========== */
+
+.section-two-background {
+  background-image: url(../images/backgrounds/who-we-are-img.jpg);
+}
+
 .text-offer {
   font-weight: 400;
   text-transform: uppercase;
