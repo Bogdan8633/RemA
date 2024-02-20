@@ -195,11 +195,45 @@ body {
 
 .section-two-background {
   background-image: url(../images/backgrounds/who-we-are-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 826px;
+}
+
+.dividing-container {
+  display: flex;
+  margin-bottom: 72px;
+}
+
+.main-text-container {
+  width: 626px;
+  padding-right: 24px;
+}
+
+.description-text-container {
+  width: 292px;
+}
+
+.be-flex {
+  display: flex;
+}
+
+.be-flex-left {
+  width: 605px;
+}
+
+.be-flex-right {
+  margin-left: auto;
+  width: 298px;
 }
 
 .text-offer {
   font-weight: 400;
   text-transform: uppercase;
+}
+
+.text-offer-to-right {
+  text-align: end;
 }
 
 .tour-for-everyone {
