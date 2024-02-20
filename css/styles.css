@@ -305,15 +305,90 @@ body {
 
 .choose-heading {
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .choose-text {
   width: 293px;
   margin-left: auto;
+  text-align: justify;
+}
+
+.columns-container {
+  gap: 24px;
+}
+
+.first-column {
+  width: 253px;
+}
+
+.subtitle {
+  font-size: 36px;
+  line-height: 1.08; /* 108.333% */
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  margin-left: auto;
+  text-align: right;
+}
+
+.our-advantages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.our-advantages-item {
+  font-weight: 400;
+}
+
+.our-description {
+  font-size: 12px;
+  line-height: 2; /* 200% */
+}
+
+.second-column {
+  padding-top: 82px;
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.third-column {
+  width: 290px;
+}
+
+.inputs-heading {
+  margin-bottom: 12px;
+}
+
+.inputs-list {
+  margin-bottom: 36px;
+}
+
+.inputs-list-item:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.checkbox-container {
+  display: flex;
+  gap: 8px;
+}
+
+.send-button {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  background-color: transparent;
+  border: none;
+}
+
+.fourth-column {
+  padding-top: 82px;
 }
 
 /* ==========/SECTION CHOOSE US========== */
-
 /* ==========SECTION OUR GALLERY========== */
 .section-five-background {
   background-image: url(../images/backgrounds/our-gallery.jpg);
