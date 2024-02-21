@@ -385,6 +385,9 @@ body {
   line-height: normal;
   background-color: transparent;
   border: none;
+  margin-left: auto;
+  display: block;
+  margin-top: 12px;
 }
 
 .fourth-column {
@@ -432,10 +435,70 @@ body {
 
 .top-wrapper {
   display: flex;
+  margin-top: 74px;
+}
+
+.top-first-wrapper {
+  width: 293px;
+  font-weight: 400;
+  text-align: end;
+  margin-right: 20px;
+}
+
+.top-second-wrapper {
+  width: 293px;
+
+  margin-right: 20px;
+}
+
+.top-third-wrapper {
+  width: 293px;
+  margin-bottom: 40px;
+}
+
+.top-fourth-wrapper {
+  width: 293px;
+  margin-bottom: 40px;
 }
 
 .lower-wrapper {
   display: flex;
+}
+
+.lower-first-wrapper {
+  width: 293px;
+  font-weight: 400;
+  text-align: end;
+
+  margin-right: 20px;
+}
+
+.mail-link {
+  line-height: 1.33; /* 133.333% */
+}
+
+.social-list {
+  margin-top: 124px;
+  /* font-weight: 400; */
+}
+
+.lower-second-wrapper {
+  width: 293px;
+
+  margin-right: 20px;
+}
+
+.small-text {
+  font-size: 12px;
+  line-height: 2; /* 200% */
+}
+
+.follow-us {
+  margin-top: 124px;
+}
+
+.lower-third-wrapper {
+  width: 293px;
 }
 
 /* ==========/SECTION CONTACT US========== */
