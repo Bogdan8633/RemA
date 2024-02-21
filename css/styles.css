@@ -93,6 +93,11 @@ body {
   padding-bottom: 80px;
 }
 
+.small-text {
+  font-size: 12px;
+  line-height: 2; /* 200% */
+}
+
 /* ==========/COMPONENTS========== */
 
 /* ==========HEADER========== */
@@ -395,6 +400,7 @@ body {
 }
 
 /* ==========/SECTION CHOOSE US========== */
+
 /* ==========SECTION OUR GALLERY========== */
 .section-five-background {
   background-image: url(../images/backgrounds/our-gallery.jpg);
@@ -486,11 +492,6 @@ body {
   width: 293px;
 
   margin-right: 20px;
-}
-
-.small-text {
-  font-size: 12px;
-  line-height: 2; /* 200% */
 }
 
 .follow-us {
