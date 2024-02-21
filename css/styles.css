@@ -13,6 +13,11 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul,
 ol {
   margin-top: 0;
@@ -37,8 +42,6 @@ img {
 }
 
 body {
-  background-color: burlywood;
-
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 200;
@@ -421,10 +424,18 @@ body {
 
 /* ==========SECTION CONTACT US========== */
 .section-six-background {
-  background-image: url(../images/backgrounds/choose-us.jpg);
+  background-image: url(../images/backgrounds/contact-us.jpg);
   background-position: center;
   background-repeat: no-repeat;
   min-height: 762px;
+}
+
+.top-wrapper {
+  display: flex;
+}
+
+.lower-wrapper {
+  display: flex;
 }
 
 /* ==========/SECTION CONTACT US========== */
